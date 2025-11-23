@@ -34,8 +34,6 @@
             I'm constantly discovering new technologies and enjoying every step
             of this journey into becoming a skilled developer.
           </p>
-
-          <button class="download-cv">Download CV</button>
         </div>
       </div>
 
@@ -321,21 +319,6 @@
     line-height: 1.5;
     margin-bottom: 0.75rem;
     font-size: 0.85rem;
-  }
-  .download-cv {
-    background: linear-gradient(90deg, #a855f7, #3b82f6);
-    border: none;
-    color: white;
-    padding: 0.6rem 1.75rem;
-    border-radius: 0.5rem;
-    font-size: 0.8rem;
-    font-weight: 600;
-    cursor: pointer;
-    transition: all 0.3s ease;
-  }
-  .download-cv:hover {
-    transform: translateY(-3px);
-    box-shadow: 0 10px 25px rgba(168, 85, 247, 0.4);
   }
   .stats-section {
     display: grid;
