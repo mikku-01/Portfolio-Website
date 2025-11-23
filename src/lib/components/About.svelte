@@ -216,43 +216,43 @@
   }
 
   .stat-card {
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 1rem;
+    padding: 0.9rem 1rem;
     display: flex;
     align-items: center;
     gap: 0.75rem;
-    padding: 0.9rem 1rem;
-    border-radius: 1rem;
-    background: rgba(15, 23, 42, 0.7);
-    border: 1px solid rgba(148, 163, 184, 0.25);
-    box-shadow: 0 10px 25px rgba(15, 23, 42, 0.5);
-    backdrop-filter: blur(10px);
-    transition:
-      transform 0.2s ease,
-      box-shadow 0.2s ease,
-      border-color 0.2s ease;
+    transition: all 0.3s ease;
   }
 
   .stat-card:hover {
-    transform: translateY(-4px);
-    box-shadow: 0 18px 35px rgba(15, 23, 42, 0.8);
-    border-color: rgba(168, 85, 247, 0.7);
+    transform: translateY(-5px);
+    background: rgba(255, 255, 255, 0.08);
+    box-shadow: 0 15px 40px rgba(168, 85, 247, 0.3);
+    border-color: rgba(168, 85, 247, 0.3);
   }
 
   .stat-icon {
-    width: 42px;
-    height: 42px;
-    border-radius: 999px;
-    background: rgba(15, 23, 42, 0.8);
+    width: 48px;
+    height: 48px;
+    background: linear-gradient(135deg, #6366f1, #8b5cf6, #a855f7);
+    border-radius: 14px;
     display: flex;
     align-items: center;
     justify-content: center;
-    box-shadow: 0 6px 14px rgba(15, 23, 42, 0.6);
+    color: white;
+    box-shadow: 0 8px 25px rgba(168, 85, 247, 0.25);
+    position: relative;
+    overflow: hidden;
   }
 
   .stat-icon svg {
-    width: 22px;
-    height: 22px;
+    width: 24px;
+    height: 24px;
     color: #ffffff;
-    filter: drop-shadow(0 1px 2px rgba(0, 0, 0, 0.3));
+    filter: drop-shadow(0 1px 2px rgba(0, 0, 0, 0.2));
     z-index: 1;
   }
 

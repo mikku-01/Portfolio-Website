@@ -315,7 +315,7 @@
   }
   .tech-card:hover {
     transform: translateY(-8px);
-    background: rgba(225, 225, 255, 0.8);
+    background: rgba(255, 255, 255, 0.08);
     box-shadow: 0 10px 30px rgba(168, 85, 247, 0.2);
   }
   .tech-icon {
