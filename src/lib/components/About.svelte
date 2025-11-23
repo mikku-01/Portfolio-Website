@@ -156,7 +156,7 @@
 <style>
   .about {
     min-height: auto;
-    padding: 0rem 2rem 1.5rem 2 rem;
+    padding: 0rem 2rem 1.5rem 2rem;
     margin-top: -2rem;
     background: linear-gradient(135deg, #0f0728, #1e0b2e, #0a3d62);
     position: relative;
@@ -167,7 +167,7 @@
     inset: 0;
     background: radial-gradient(
         circle at 30% 50%,
-        rgba(138, 43.226, 0.1),
+        rgba(138, 43, 226, 0.1),
         transparent 50%
       ),
       radial-gradient(
@@ -190,7 +190,7 @@
   }
 
   .header h2 {
-    font-size: clmap(1.8rem, 5vw, 2.5rem);
+    font-size: clamp(1.8rem, 5vw, 2.5rem);
     font-weight: 900;
     background: linear-gradient(90deg, #a855f7, #3b82f6);
     -webkit-background-clip: text;
@@ -343,7 +343,7 @@
     gap: 0.75rem;
   }
   .stat-card {
-    background: rgba(255.255.255.0.05);
+    background: rgba(255, 255, 255, 0.05);
     backdrop-filter: blur(10px);
     border: 1px solid rgba(255, 255, 255, 0.1);
     border-radius: 1rem;
